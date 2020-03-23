@@ -3,7 +3,7 @@ import Layout from "../components/layout/layout"
 
 const Contact = () => (
   <Layout>
-    Hello Guys..
+    Hello Guys.. I am contact
   </Layout>
 )
 
