@@ -10,8 +10,8 @@ const Nav2 = (props) => {
             <Navbar className="navbar-expand-lg">
                 <Container>
                     <div className="brand"><Link to='/'><img className="logo" src={Logo} alt="logo"/></Link></div>
-                        <Nav className="ml-auto" navbar>
-                            <Navitem name='Contact' url='contact' />
+                        <Nav navbar>
+                            <Navitem name='Contact' url='/contact' />
                         </Nav>
                 </Container>
             </Navbar>
