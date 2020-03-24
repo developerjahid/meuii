@@ -1,6 +1,7 @@
-@import url('https://fonts.googleapis.com/css?family=Liu+Jian+Mao+Cao&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Baloo+Thambi+2:500&display=swap');
+
 body {
-    font-family: 'Liu Jian Mao Cao', cursive;
+    font-family: 'Baloo Thambi 2', cursive;
 }
 .navbar {
     position: relative;
@@ -16,6 +17,32 @@ body {
 .logo {
     width: 40%;
 }
+
+.photos {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.copy {
+    font-size: 12px;
+}
+.nav-contact {
+    color: #FFC19D;
+    background-color: #fff;
+    border-radius: 9px;
+    font-size: 13px;
+    letter-spacing: 0.6px;
+    padding: 4px;
+}
+.card {
+    border: 0!Important;
+    border-radius: 0!Important;
+}
+
+
+
+
+
+
 
 @media (max-width: 767px) {
     .navbar {

@@ -27,6 +27,12 @@ module.exports = {
         icon: `src/images/icon/meuii.png`,
       },
     },
-
+    {
+      resolve: `gatsby-source-contentful`,
+      options: {
+        spaceId: `baexu9juaczj`,
+        accessToken: `tom_Cl6UywwNnFltd7CUckxdB5rn2PPFk4pYiIDTZKI`,
+      },
+    },
   ],
 }
