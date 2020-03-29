@@ -5,8 +5,11 @@ body {
 }
 .navbar {
     position: relative;
-    background-color: #FFC19D;
-    height: 165px;
+    height: 100px;
+    background: #C6FFDD;
+    background: linear-gradient(to right, #f7797d, #FBD786, #C6FFDD);
+
+    background-size: cover;
 }
 .brand {
     position: absolute;
@@ -37,18 +40,21 @@ body {
     border: 0!Important;
     border-radius: 0!Important;
 }
-
-
+.navbar-nav .nav-link {
+    padding-right: 10px;
+    padding-left: 10px;
+}
 
 
 
 
 
 @media (max-width: 767px) {
-    .navbar {
-        height: 120px;
-    }
     .logo {
         width: 35%;
+    }
+    .photos {
+        margin-top: 35px;
+        margin-bottom: 35px;
     }
 }
